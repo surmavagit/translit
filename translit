@@ -1,4 +1,10 @@
 #!/bin/sed -f
+s/йо/yho/g
+s/Йо/Yho/g
+s/йа/yha/g
+s/Йа/Yha/g
+s/йу/yhu/g
+s/Йу/Yhu/g
 y/абвгдежзийклмнопрстуфцщъь/abvgdejziyklmnoprstufcxqw/
 y/АБВГДЕЖЗИЙКЛМНОПРСТУФЦЩЪЬ/ABVGDEJZIYKLMNOPRSTUFCXQW/
 s/ё/yo/g
