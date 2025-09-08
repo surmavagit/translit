@@ -1,0 +1,19 @@
+#!/bin/sed -f
+s/yo/ё/g
+s/Yo/Ё/g
+s/kh/х/g
+s/Kh/Х/g
+s/ch/ч/g
+s/Ch/Ч/g
+s/sh/ш/g
+s/Sh/Ш/g
+s/ih/ы/g
+s/Ih/Ы/g
+s/eh/э/g
+s/Eh/Э/g
+s/yu/ю/g
+s/Yu/Ю/g
+s/ya/я/g
+s/Ya/Я/g
+y/abvgdejziyklmnoprstufcxqw/абвгдежзийклмнопрстуфцщъь/
+y/ABVGDEJZIYKLMNOPRSTUFCXQW/АБВГДЕЖЗИЙКЛМНОПРСТУФЦЩЪЬ/
