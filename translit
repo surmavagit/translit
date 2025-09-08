@@ -1,12 +1,14 @@
 #!/bin/sed -f
-y/абвгдеёжзийклмнопрстуфхцъь/abvgdeejziyklmnoprstufxcqw/
-y/АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЪЬ/ABVGDEEJZIYKLMNOPRSTUFXCQW/
+y/абвгдежзийклмнопрстуфцщъь/abvgdejziyklmnoprstufcxqw/
+y/АБВГДЕЖЗИЙКЛМНОПРСТУФЦЩЪЬ/ABVGDEJZIYKLMNOPRSTUFCXQW/
+s/ё/yo/g
+s/Ё/Yo/g
+s/х/kh/g
+s/Х/Kh/g
 s/ч/ch/g
 s/Ч/Ch/g
 s/ш/sh/g
 s/Ш/Sh/g
-s/щ/shh/g
-s/Щ/Shh/g
 s/ы/ih/g
 s/Ы/Ih/g
 s/э/eh/g
